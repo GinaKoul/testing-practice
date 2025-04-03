@@ -1,4 +1,4 @@
-export function reverse(value) {
+export function reverseString(value) {
   let copyValue = value.split("");
   for (let start = 0, end = copyValue.length - 1; start < end; start++, end--) {
     let currentLetter = copyValue[start];

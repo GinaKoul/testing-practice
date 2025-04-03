@@ -1,7 +1,7 @@
-import { reverse } from "./reverse.js";
+import { reverseString } from "./reverse.js";
 
-test("function reverse defined", () => {
-  expect(reverse).toBeDefined();
+test("function reverseString defined", () => {
+  expect(reverseString).toBeDefined();
 });
 
 test("string reversed", () => {
@@ -24,6 +24,6 @@ test("string reversed", () => {
     },
   ];
   strings.forEach((obj) => {
-    expect(reverse(obj.current)).toMatch(obj.expected);
+    expect(reverseString(obj.current)).toMatch(obj.expected);
   });
 });

@@ -24,6 +24,6 @@ test("returns string with first character capitalized", () => {
     },
   ];
   strings.forEach((obj) => {
-    expect(capitalize(obj.current)).toMatch(obj.expected);
+    expect(capitalize(obj.current)).toBe(obj.expected);
   });
 });
