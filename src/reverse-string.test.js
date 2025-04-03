@@ -1,4 +1,4 @@
-import { reverseString } from "./reverse.js";
+import { reverseString } from "./reverse-string.js";
 
 test("function reverseString defined", () => {
   expect(reverseString).toBeDefined();
